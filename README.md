@@ -42,7 +42,7 @@ npm install --save react-native-ux-cam
 Add the following to your Podfile:
 
 ```ruby
-pod 'react-native-ux-cam', path: "../node_modules/react-native-ux-cam"
+pod 'RNUxcam', path: "../node_modules/react-native-ux-cam", :podspec => "../node_modules/react-native-ux-cam/ios/RNUxcam.podspec"
 ```
 
 Then run:
